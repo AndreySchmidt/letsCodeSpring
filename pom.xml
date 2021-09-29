@@ -26,13 +26,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<!--        Шаблонизатор-->
+<!--        Шаблонизатор вместо него ставлю стандартный попроще (thymeleaf надо серьезно изучать)-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+<!--        Инструменты. Это для перезагрузки контейнера и тд-->
+
+<!--        Другой шаблонизатор-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
-<!--        Инструменты. Это для перезагрузки контейнера и тд-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
